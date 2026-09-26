@@ -24,7 +24,7 @@ export default function Home() {
           <div className="mt-6 grid items-start gap-8 md:grid-cols-2">
             <p className="max-w-md text-neutral-500">{t.hero.sub}</p>
             <div className="flex flex-wrap gap-4 md:justify-end">
-              <Link href={`${BASE}/contact`} className="bg-[#D9331A] px-8 py-3.5 font-bold text-white hover:bg-[#b52a15]">
+              <Link href={`${BASE}/contact#book`} className="bg-[#D9331A] px-8 py-3.5 font-bold text-white hover:bg-[#b52a15]">
                 {t.hero.cta1}
               </Link>
               <a href={`tel:${rest.phoneRaw}`} className="flex items-center gap-2 border-2 border-[#141414] px-8 py-3.5 font-bold hover:bg-[#141414] hover:text-white">

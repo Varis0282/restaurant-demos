@@ -19,7 +19,7 @@ export default function ContactPage() {
       <section className="py-16">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-5">
           <div className="lg:col-span-3">
-            <BookingForm styles={bookingStyles} />
+            <div id="book" className="scroll-mt-28"><BookingForm styles={bookingStyles} /></div>
           </div>
           <div className="lg:col-span-2">
             <div className="divide-y divide-white/[0.08] border border-white/[0.08]">

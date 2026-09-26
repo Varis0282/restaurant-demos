@@ -14,7 +14,7 @@ export default function ContactPage() {
       <section className="px-4 pb-14">
         <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-5">
           <FadeIn className="lg:col-span-3">
-            <BookingForm styles={bookingStyles} />
+            <div id="book" className="scroll-mt-28"><BookingForm styles={bookingStyles} /></div>
           </FadeIn>
           <div className="space-y-4 lg:col-span-2">
             {[

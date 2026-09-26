@@ -46,7 +46,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="mt-9 flex flex-wrap justify-center gap-4"
           >
-            <Link href={`${BASE}/contact`} className={`rounded-full ${GRAD} px-8 py-3.5 font-bold text-white shadow-xl shadow-rose-500/30 transition-transform hover:scale-105`}>
+            <Link href={`${BASE}/contact#book`} className={`rounded-full ${GRAD} px-8 py-3.5 font-bold text-white shadow-xl shadow-rose-500/30 transition-transform hover:scale-105`}>
               {t.hero.cta1}
             </Link>
             <a href={`tel:${rest.phoneRaw}`} className="flex items-center gap-2 rounded-full border border-white/20 bg-white/[0.05] px-8 py-3.5 font-bold text-white backdrop-blur hover:bg-white/10">

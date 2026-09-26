@@ -49,7 +49,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-[11px] normal-case tracking-normal text-white/30 hover:text-white/60">← All demos</Link>
           <LangToggle className="border border-white/20 px-3 py-1 text-xs hover:border-[#D4B483] hover:text-[#D4B483]" />
-          <Link href={`${BASE}/contact`} className="border border-[#D4B483] px-5 py-2.5 font-semibold text-[#D4B483] transition-colors hover:bg-[#D4B483] hover:text-[#101014]">
+          <Link href={`${BASE}/contact#book`} className="border border-[#D4B483] px-5 py-2.5 font-semibold text-[#D4B483] transition-colors hover:bg-[#D4B483] hover:text-[#101014]">
             {t.nav.book}
           </Link>
         </nav>
@@ -66,7 +66,7 @@ export function Nav() {
           ))}
           <div className="mt-4 flex items-center gap-3">
             <LangToggle className="border border-white/20 px-3 py-1.5 text-xs text-[#B9B4A6]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 border border-[#D4B483] px-5 py-2.5 text-center text-sm font-semibold uppercase tracking-[0.15em] text-[#D4B483]">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 border border-[#D4B483] px-5 py-2.5 text-center text-sm font-semibold uppercase tracking-[0.15em] text-[#D4B483]">
               {t.nav.book}
             </Link>
           </div>
@@ -197,7 +197,7 @@ export function CTABand() {
         <h2 className={`mt-4 ${SERIF} text-4xl font-semibold text-[#EDE6D6] md:text-5xl`}>{t.sections.ctaTitle}</h2>
         <p className="mt-4 text-[#8E897C]">{t.sections.ctaSub}</p>
         <div className="mt-9 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="bg-[#D4B483] px-9 py-3.5 text-sm font-semibold uppercase tracking-[0.2em] text-[#101014] transition-opacity hover:opacity-90">
+          <Link href={`${BASE}/contact#book`} className="bg-[#D4B483] px-9 py-3.5 text-sm font-semibold uppercase tracking-[0.2em] text-[#101014] transition-opacity hover:opacity-90">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${rest.phoneRaw}`} className="flex items-center gap-2 border border-white/25 px-9 py-3.5 text-sm font-semibold uppercase tracking-[0.2em] text-[#EDE6D6] hover:border-[#D4B483] hover:text-[#D4B483]">

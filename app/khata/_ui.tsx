@@ -41,7 +41,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-neutral-400 hover:text-neutral-600">← All demos</Link>
           <LangToggle className="border-2 border-[#141414] px-3 py-1 text-xs font-bold hover:bg-[#141414] hover:text-white" />
-          <Link href={`${BASE}/contact`} className="bg-[#D9331A] px-5 py-2.5 font-bold text-white hover:bg-[#b52a15]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#D9331A] px-5 py-2.5 font-bold text-white hover:bg-[#b52a15]">
             {t.nav.book}
           </Link>
         </nav>
@@ -58,7 +58,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex gap-3">
             <LangToggle className="border-2 border-[#141414] px-3 py-1.5 text-xs font-bold" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 bg-[#D9331A] px-5 py-2.5 text-center font-bold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 bg-[#D9331A] px-5 py-2.5 text-center font-bold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -185,7 +185,7 @@ export function CTABand() {
         <h2 className={`mt-3 max-w-2xl ${SERIF} text-4xl leading-tight md:text-6xl`}>{t.sections.ctaTitle}</h2>
         <p className="mt-4 max-w-xl text-neutral-400">{t.sections.ctaSub}</p>
         <div className="mt-9 flex flex-wrap gap-4">
-          <Link href={`${BASE}/contact`} className="bg-[#D9331A] px-8 py-3.5 font-bold text-white hover:bg-[#b52a15]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#D9331A] px-8 py-3.5 font-bold text-white hover:bg-[#b52a15]">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${rest.phoneRaw}`} className="flex items-center gap-2 border-2 border-white px-8 py-3.5 font-bold hover:bg-white hover:text-[#141414]">

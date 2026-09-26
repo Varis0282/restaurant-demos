@@ -74,7 +74,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-stone-500 hover:text-stone-300">← All demos</Link>
           <LangToggle className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold text-stone-300 hover:bg-white/10" />
-          <Link href={`${BASE}/contact`} className={`rounded-full ${GRAD} px-5 py-2 font-semibold text-white shadow-lg shadow-rose-500/30 transition-transform hover:scale-105`}>
+          <Link href={`${BASE}/contact#book`} className={`rounded-full ${GRAD} px-5 py-2 font-semibold text-white shadow-lg shadow-rose-500/30 transition-transform hover:scale-105`}>
             {t.nav.book}
           </Link>
         </nav>
@@ -91,7 +91,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center gap-3">
             <LangToggle className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold text-stone-300" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className={`flex-1 rounded-full ${GRAD} px-5 py-2.5 text-center font-semibold text-white`}>
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className={`flex-1 rounded-full ${GRAD} px-5 py-2.5 text-center font-semibold text-white`}>
               {t.nav.book}
             </Link>
           </div>
@@ -257,7 +257,7 @@ export function CTABand() {
           <h2 className="text-3xl font-bold text-white md:text-4xl">{t.sections.ctaTitle}</h2>
           <p className="mt-3 text-white/85">{t.sections.ctaSub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href={`${BASE}/contact`} className="rounded-full bg-white px-8 py-3.5 font-bold text-[#FF2E63] shadow-xl transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="rounded-full bg-white px-8 py-3.5 font-bold text-[#FF2E63] shadow-xl transition-transform hover:scale-105">
               {t.hero.cta1}
             </Link>
             <a href={`tel:${rest.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-3.5 font-bold text-white hover:bg-white/10">
